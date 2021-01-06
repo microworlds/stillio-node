@@ -1,4 +1,5 @@
-// Sets default options. Inspired by accounting js
+// Sets default options. Inspired by the accounting.js library
+// https://github.com/openexchangerates/accounting.js/blob/74a2b12800f0483ffeebf05c00ea52f8dde3ac07/accounting.js#L80
 function defaults(options, defs){
     options = options || {}
     

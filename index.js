@@ -185,12 +185,12 @@ Stillio.getScreenshots = async function(options) {
     
     // Define default Query string parameters
     let defaultOptions = {
+        webpageId: null,
         page: 1,
         limit: 50,
         timeout: REQ_TIMEOUT,
         sort: "dateCreated",
-        order: "desc",
-        webpageId: null
+        order: "desc"
     }
 
     // Get Query string parameters from client
